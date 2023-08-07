@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body {
+    background: url(imagens/fundo2.jpg ) top center no-repeat fixed;
+    background-size: cover;
+}
+main {
+    height: 100vh;
+    position: relative;
+}
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    height: 585px;
+    width: 290px;
+    background: url(imagens/iphone.png) no-repeat;
+    background-size: 290px;
+}
+section#redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 150px 50px 0px 0px;
+}
+section#redes-sociais img {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover {
+    border: 2.5px solid white;
+    transform: translate(-3px, -3px);
+    transition: transform .5s, border 1s;
+    box-shadow: 6px 6px 10px rgb(132, 28, 134);
+}
+iframe#tela {
+    position: relative;
+    top: 13px;
+    left: 15px;
+    border-radius: 25px;
+    width: 260px;
+    height: 557px;
+}
+iframe#redes-sociais {
+    background: no-repeat;
+    background-size: cover;
+}
