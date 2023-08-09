@@ -9,6 +9,7 @@ html, body {
 body {
     background: url(imagens/fundo2.jpg ) top center no-repeat fixed;
     background-size: cover;
+    overflow: hidden;
 }
 main {
     height: 100vh;
@@ -27,9 +28,7 @@ section#telefone {
 }
 section#redes-sociais {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 150px 50px 0px 0px;
+    justify-content: center;
 }
 section#redes-sociais img {
     max-width: 60px;
